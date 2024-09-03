@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --primaria: black;
+    --segunda: gray;
+
+}
+
+header, main , footer{
+    width: 100%;
+}
+nav{
+    background-color: var(--primaria);
+}
+
+#banner{ 
+    width: 100%; 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/ImagensGeral/rrr.jpg);
+    /*  background-repeat = serve para não repedir  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+
+}
+
+#logo{
+    width: 100px;
+}
+#logo img{
+    width: 100%;
+}
+
+#menu{
+    color: rgb(148, 252, 249);
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+#menu a{
+    color: white;    
+    text-decoration: none;
+    padding: 120px;
+}
+#titulos {
+    display: flex;
+    width: auto;
+
+}
+#titulos div{
+    display: flex;
+    flex-direction: column;
+    /* align-items centraliza todos os itens, incluindo img, botão icons e text */
+    align-items: center;
+    
+}
+#titulos img{
+    width: 70px;
+    margin-top: 50px;
+    
+}
+button{
+    background-color: rgb(133, 124, 124)
+    color: black;
+    border: solid;
+    padding: 4px;
+    gap: 80px;
+    margin-top: 10px;
+}
+h3{
+    margin-top: 24px
+}
+
+#Agenda{
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(192, 189, 185);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-right: 15px;
+}
+#Agenda div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#Agenda img{
+margin-inline: ;
+}
