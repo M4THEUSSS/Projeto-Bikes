@@ -20,7 +20,7 @@ nav{
     height: 400px;
     display: flex;
     justify-content: center;
-    background-image: url(../images/ImagensGeral/rrr.jpg);
+    background-image: url(../images/ImagensGeral/banner.jpg);
     /*  background-repeat = serve para não repedir  */
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,8 @@ nav{
 }
 #titulos {
     display: flex;
-    width: auto;
+    width: 100%;
+    padding: 10px;
 
 }
 #titulos div{
@@ -65,18 +66,46 @@ nav{
     
 }
 button{
-    background-color: rgb(133, 124, 124)
-    color: black;
-    border: solid;
-    padding: 4px;
-    gap: 80px;
-    margin-top: 10px;
+    background-color: #565756; /* Cor de fundo do botão */
+    border: none; /* Remove a borda */
+  border-radius: 20%; /* Arredonda a borda */
+  color: white; /* Cor do texto */
+  padding: 10px 10px; /* Espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  text-decoration: none; /* Remove o sublinhado do texto */
+  display: inline-block; /* Exibe o botão como um bloco */
+  font-size: 11px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margens */
+  cursor: pointer; /* Muda o cursor para uma mão ao passar o mouse */
+  transition: 0.3s ease; /* Adiciona uma transição para a cor de fundo */
 }
+button:hover {
+    background-color: #0a7f218d; /* Cor de fundo ao passar o mouse */
+  }
+    
+.DataEvento{
+    width: 80px;
+    display: flex;
+    align-items: ;
+}
+
+
+
+
+
+
+
+
+
 h3{
     margin-top: 24px
 }
-
-#Agenda{
+#evento {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+/*#Agenda{
     padding: 20px 20px 20px 20px;
     background-color: rgb(192, 189, 185);
     width: 100%;
@@ -91,5 +120,60 @@ h3{
     
 }
 #Agenda img{
-margin-inline: ;
+margin: auto ;
+}*/
+/* Galeria */
+#galeria{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
 }
+ 
+#galeriaImagens{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Para não amassa as imagens sempre que usar display felx
+usa o (flex wrap) */
+/*.galeriaImagens{
+    width: 20%;
+    height: 200px;
+    background-image: url(../images/ImagensGeral/bike-new-york.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#galeriaImg1{
+    background-image: url(../images/ImagensGeral/g1.jpg);
+}
+#galeriaImg2{
+    background-image: url(../images/ImagensGeral/g2.jpg);
+}
+#galeriaImg3{
+    background-image: url(../images/ImagensGeral/g3.jpg);
+}
+#galeriaImg4{
+    background-image: url(../images/ImagensGeral/g4.jpg);
+}
+#galeriaImg5{
+    background-image: url(../images/ImagensGeral/g5.jpg);
+}
+#galeriaImg6{
+    background-image: url(../images/ImagensGeral/g6.png);
+}
+#galeriaImg7{
+    background-image: url(../images/ImagensGeral/g7.jpg);
+}
+#galeriaImg8{
+    background-image: url(../images/ImagensGeral/g8.jpg);
+}
+#galeriaImg9{
+    background-image: url(../images/ImagensGeral/g9.jpg);
+}
+#galeriaImg10{
+    background-image: url(../images/ImagensGeral/g10.png);
+}*/
+
+
